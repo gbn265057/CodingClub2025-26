@@ -343,7 +343,7 @@ while not game_over:
 
 ## Step 7: Score
 
-This is a fully functional game! For some flavor, we can add a score. Start by telling the game how many points the player has and where to write their score two lines after `wall_gap=randint(0,HEIGHT-GAP_HEIGHT)`:
+This is a fully functional game! For some flavor, we can add a score. Start by telling the game how many points the player has and where to write their score two lines after the first `wall_gap=randint(0,HEIGHT-GAP_HEIGHT)`:
 
 ```python
 score = 0
