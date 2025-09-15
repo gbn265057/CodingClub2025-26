@@ -13,12 +13,11 @@ Next, create a new folder - a folder in your desktop will do fine.
 Open the folder, then right-click the background of the file explorer. One of the options should be "Open in Terminal"; select that one. A black terminal should pop up. Write in the following lines (you will likely have to  wait after typing the first one):
 
 ```powershell
-python -m venv env
 New-Item flappy.py
-code .
+code flappy.py
 ```
 
-This should open Visual Studio code. Hit "Accept" on any permissions dialogs that open up, then look at the left-side toolbar. Below the triangle with a bug, there should be some squares - that's the extension menu. Open it up, find a Python extension, and install it.
+This should open Visual Studio Code. Look at the left-side toolbar. Below the triangle with a bug, there should be some squares - that's the extension menu. Open it up, find a Python extension, and install it.
 
 Once that's done installing, open the pages tab on the left navbar and select `flappy.py`. Hit <kbd>CTRL</kbd>+<kbd>F5</kbd> - a dropdown should open up from the top. Select the option with "env" in it. Now hit <kbd>CTRL</kbd>+<kbd>`</kbd> and type:
 
