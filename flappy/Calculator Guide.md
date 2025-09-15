@@ -77,7 +77,7 @@ Now that we know those things, we can actually make the following happen. Two li
     game_over=True
 ```
 
-Make sure the indentation is right! There should be as two diamonds before `player_v`, just like before `sleep`.
+Make sure the indentation is right! There should be two diamonds before `player_v`, just like before `sleep`.
 
 This will make the player fall. As a bonus, it'll end the game once you fall below the screen, so you won't have to hold `Home` anymore :)
 
