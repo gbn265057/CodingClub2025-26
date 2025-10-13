@@ -364,11 +364,7 @@ grades_needed[course_name] = final_needed
 
 This will create a new entry in the dictionary with the **key** (name) that the user inputted and the **value** based on the final they need.
 
-Unlike a list, you access the elements of a dictionary based on their keys, not their number. Can you guess how your replaying code should change? As a hint, here's what the `input` call just before it could look like:
-
-```python
-replayed_final = input("Which final do you want to see again? ")
-```
+Unlike a list, you access the elements of a dictionary based on their keys, not their number. Can you guess how the `replayed_final` line should change? To make that work?
 
 You can iterate over the items of a dictionary, but you'll usually want to do it a little differently. For example, the for loop for the dictionary in this program should have the following header (notice that there are two things between `for` and `in`, as well as `.items()` at the end):
 
